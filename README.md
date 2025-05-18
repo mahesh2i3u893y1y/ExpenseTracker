@@ -1,12 +1,29 @@
-# React + Vite
+React Expense Tracker
+A simple and elegant expense tracker built with React and Tailwind CSS. This application allows users to add, edit, delete, filter, and search their daily expenses. The data is presented using responsive cards with category-wise breakdowns and a monthly summary.
+🚀 Features
+✅ Add new expenses with title, amount, category, and date
+✅ Edit or delete existing expenses
+✅ Real-time filtering by category
+✅ Search expenses by title
+✅ Monthly summary of total expenses
+✅ Category-wise expense breakdown
+✅ Responsive UI using Tailwind CSS
+✅ Clean and modern layout with icon support
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ Tech Stack
+Frontend: React, Tailwind CSS
+Icons: React Icons
+State Management: useState, useEffect (React Hooks)
+Date Formatting: JavaScript Date object
 
-Currently, two official plugins are available:
+✍️ How to Use
+Click "Add Expense" and enter title, amount, category, and date.
+Use the search box or category filter to find specific entries.
+Click the Edit or Delete icons to modify or remove entries.
+See your monthly total and category breakdown at the top.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2025-05-18 154154](https://github.com/user-attachments/assets/06e68a23-5565-4e4b-a2c7-12ae6777085e)
+![Screenshot 2025-05-18 154852](https://github.com/user-attachments/assets/9bb10b75-37af-444d-986a-3f5c289220e0)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
