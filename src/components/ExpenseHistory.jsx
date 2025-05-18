@@ -178,9 +178,9 @@ const ExpenseHistory = ({ expenses, setExpenses }) => {
           ) : (
             <div
               key={exp.id}
-              className="border p-4 rounded-lg bg-white shadow-md hover:shadow-lg transition"
+              className="border p-4 rounded-lg bg-white shadow-md hover:shadow-lg transition mt-4"
             >
-              <div className="flex  justify-between items-start w-full">
+              <div className="flex  justify-between items-start w-full mt-4">
                 {/* Left Section */}
                 <div className="flex flex-col gap-1">
                   <div className="text-lg font-semibold">{exp.title}</div>
